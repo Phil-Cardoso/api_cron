@@ -17,4 +17,4 @@ api.add_resource(Text, '/cron/<string:language>/<string:cron>')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
